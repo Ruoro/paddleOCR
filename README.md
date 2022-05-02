@@ -15,10 +15,11 @@ one also has to clone the github repo in order to use the fonts in the final dis
 
 
 Then one has to make the neccecarry imports eg.
-> cv2
-> matplotlib
-> PaddleOCR
-> os
+>
+- cv2
+- matplotlib
+- PaddleOCR
+- os
 
 ### Prerequisites
 The only prerequisite is a jupyter notebook or a google collab.
