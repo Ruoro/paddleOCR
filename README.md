@@ -1,20 +1,20 @@
 # Optical Character Recognition.
-Implementing optical character recognition using PaddleOCR
+Implementing optical character recognition using PaddleOCR.
 
 ## Introduction
-The PaddleOCR repository is from baidu servers. The model has been extensic=vely trained on different types of images and can therefore extract text from different types of images eg, prescription bottles, number plates, memes etc. For this project i was trying to impliment an ocr model that could properly detect images from memes in hopes of finding a good database for getting down to toxic memes. 
+The PaddleOCR repository is from baidu servers. The model has been extensively trained on different types of images and can therefore extract text from different types of images e.g., prescription bottles, number plates, memes etc. For this project I was trying to implement an ocr model that could properly detect text from images in hopes of creating an extension that will help me copy code directly from the video tutorials. It is a bit cheeky but I have to try. The learning curve on this project is honestly quite interesting. Anyone who would like to copy this code and maybe compile it on their localhost is very welcome to do so. 
 
 ## Getting Started
-install the PaddleOCR using the following code
+Install the PaddleOCR using the following code:
 
-!python3 -m pip install paddlepaddle-gpu -i https://mirror.baidu.com/pypi/simple
+`!python3 -m pip install paddlepaddle-gpu -i https://mirror.baidu.com/pypi/simple`
 
-one also has to clone the github repo in order to use the fonts in the final display
+The PaddleOCR framework has a custom font in the final display hence, one also has to clone the github repo in order to use the fonts in the final display.
 
-!git clone https://github.com/PaddlePaddle/PaddleOCR
+`!git clone https://github.com/PaddlePaddle/PaddleOCR`
 
 
-Then one has to make the neccecarry imports eg.
+The necessary imports to be able to run this python code includes:
 >
 - cv2
 - matplotlib
@@ -22,14 +22,20 @@ Then one has to make the neccecarry imports eg.
 - os
 
 ### Prerequisites
-The only prerequisite is a jupyter notebook or a google collab.
+The only prerequisite is a **Jupyter notebook** or a google collab. 
 
-## Contributing
- I used code freom the repo https://github.com/PaddlePaddle/PaddleOCR
- and also a tutorial from Nicholas Renotte (https://www.youtube.com/watch?v=t5xwQguk9XU&t=780s)
+## Credit
+ I used code from the repo https://github.com/PaddlePaddle/PaddleOCR and a tutorial from Nicholas Renotte (https://www.youtube.com/watch?v=t5xwQguk9XU&t=780s). It’s always important to give credit where credit is due. 
 
+## Future Updates 
+Some of the future tasks will include:
+>
+- Creating a GUI that lets one define the binding boxes.
+- Converting the python code to an exe file.
+- Compiling to **.crs** which is required for the chrome extension. 
 ## License
 MIT
 
 ## Contact
 John Ruoro and SnowTec
+ruorojohn@gmail.com
